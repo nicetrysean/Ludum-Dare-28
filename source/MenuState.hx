@@ -38,7 +38,7 @@ class MenuState extends FlxState
         gibs.setScale( 1, 3, 3, 5);
         add(gibs);
 
-	    var title: FlxText = new FlxText(FlxG.width / 10, FlxG.height / 4, 704, "Nathan Time XXX");
+	    var title: FlxText = new FlxText(FlxG.width / 10, FlxG.height / 4, 704, "Nathan Time");
 	    title.size = 44;
 	    title.color = 0x448EDF;
 	    add(title);
